@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSRS-E</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <section class="hidden">
+        <center>
+            <h1>Uso de algoritmos de repetição espaçada no estudo de questões do ENEM</h1>
+        </center>
+        <p>Bem-vindo! Esse site foi concebido com o objetivo de ser uma apresentação inicial da nossa ideia de TCC.</p>
+        <p>Desenvolvido por: Anthony Keyvson e João Pedro</p>
+    </section>
+    <section class="hidden">
+        <p>Existem dois métodos muito efetivos de estudo que podem ser aplicados por treineiros do ENEM</p>
+        <ol type="I">
+            <li>Repetição espaçada</li>
+            <li>Resolução de questões</li>
+        </ol>
+        <p>Muitos aplicativos e sites já foram criados para ajudar as pessoas a estudar com a repetição espaçada (Anki,
+            Quizlet, etc.) e muitos outros para que elas
+            possam resolver questões do ENEM (respostaCerta, Descomplica, etc.). Porém, não existe nenhum serviço que
+            una as duas ideias, permitindo que estudantes possam
+            <i>revisar as questões do ENEM utilizando a repetição espaçada.</i>
+        </p>
+        <h1>Nossa missão é criar esse serviço!</h1>
+    </section>
+
+    <section class="hidden">
+        <h2>E por que isso importa?</h2>
+        <h3>Repetição espaçada</h3>
+        <p>A ideia básica da repetição espaçada se baseia na 
+            <a href="https://pt.wikipedia.org/wiki/Repeti%C3%A7%C3%A3o_espa%C3%A7ada"> <b>curva de esquecimento</b></a> conceito criado por Hermann Ebbinghaus.</p>
+        <p>A curva do esquecimento afirma que o esquecimento de informações ao longo do tempo segue uma curva, da seguinte forma:</p>
+        <img src="https://files.catbox.moe/mbtuif.png" alt="Curva de esquecimento de informações">
+        <p>Em seus experimentos, Hermann também confirmou que ao <i>revisar informações</i>, você "reseta" a curva:</p>
+        <img class="logos" src="https://files.catbox.moe/unpju7.png" alt="Curva do esquecimento com uma revisão">
+        <div class="img-desc">
+            <p>O ponto em vermelho indica o momento em que a informação foi relembrada ativamente.</p>
+        </div>
+        <p>Observe que uma vez que a informação foi revisada, ela demorou mais para ser esquecida.</p>
+        <p>A <b>repetição espaçada</b>, então, nada mais é do que a organização e sistematização dessas revisões, de
+            modo que você relembre as informações desejadas pelo maior tempo possível, com a menor quantidade de revisões possível. </p>
+        <img src="https://files.catbox.moe/r7hx7p.png" alt="Curva de esquecimento com revisão espaçada">
+        <div class="img-desc">Pontos amarelos são os momentos em que foram realizadas revisões.</div>
+        <p>Se você revisar certinho, você pode se lembrar de informações <i>eternamente.</i></p>
+        <p><b>Exemplo: Eu te digo um número de telefone e peço para que você se lembre dele. Se amanhã eu te perguntar
+                qual era o número, você já vai ter esquecido. Agora, se daqui a 10 minutos eu te perguntar o número, e
+                depois 1 hora depois, e depois 6 horas depois, quando eu te perguntar amanhã, você ainda vai se lembrar
+                do número, pois você <i>revisou a informação.</i></b></p>
+        <img src="https://files.catbox.moe/850ywd.png">
+        <p>Veja esse exemplo de um cartão no Anki. Ele te faz uma pergunta e logo após a resposta,
+            se você acertou a resposta, o algoritmo de agendamento de cartões do Anki vai entender que você memorizou a
+            informação, então só vai te mostrar esse cartão novamente daqui a 12 dias, se você respondeu facilmente, ele vai demorar ainda mais para te mostrar o cartão
+            (19 dias), já se você errou, ele vai te
+            mostrar o cartão novamente em poucos minutos, para que você possa memorizá-lo.
+        </p>
+    </section>
+    <section class="hidden">
+        <h3>Apps de Questões</h3>
+        <p>Para aprender, nada melhor que a prática. Por isso, apps como o respostaCerta e o Descomplica
+            oferecem simulados para que você treine seus conhecimentos nas questões do ENEM:
+        </p>
+        <img src="https://files.catbox.moe/b3593v.png" alt="Descomplica">
+        <div class="img-desc">
+            <p>Simulado do Descomplica</p>
+        </div>
+
+        <p> O problema é que mesmo que você realize esses simulados diariamente, a curva do esquecimento ainda se
+            aplica. As questões do ENEM
+            cobram uma infinidade de conteúdos, mesmo que hoje você responda corretamente uma questão sobre um assunto
+            X,
+            você não vai ver esse assunto de novo por <i>dias</i>, simplesmente porque as outras questões terão outros
+            assuntos. Então, quando
+            finalmente uma outra questão sobre o mesmo assunto X aparece, você erra, pois já esqueceu o conteúdo. O máximo que alguns serviços já existentes fazem é agrupar as questões por <i>dificuldade</i>, mostrando as
+            questões mais difíceis com maior frequência.
+            O problema é que os apps não baseiam a dificuldade da questão com base na performance do próprio estudante,
+            mas sim na porcentagem de acertos geral que a questão
+            teve no exame.</p>
+
+        <div class="logos">
+          <figure class="logo-card">
+            <img src="https://files.catbox.moe/q4z68b.png" alt="Curva de conhecimento de uma questão difícil" />
+            <figcaption>Curva de conhecimento de uma questão difícil</figcaption>
+          </figure>
+
+          <figure class="logo-card">
+            <img src="https://files.catbox.moe/7u1ajh.png" alt="Curva de esquecimento de uma questão fácil" />
+            <figcaption>Curva de esquecimento de uma questão fácil</figcaption>
+          </figure>
+        </div>
+
+        <p>Assuntos/informações mais difíceis tendem a ser esquecidas mais facilmente, então essa organização de
+            exibição de questões por dificuldade
+            faz sentido, mas é insuficiente. A minha dificuldade não vai ser a mesma da sua, nem dos outros estudantes
+            que realizaram a prova. Além disso, não faz
+            sentido organizar as questões individualmente quando muitos conteúdos que cada questão cobra se repetem -
+            Não existe só uma questão do ENEM sobre campo elétrico,
+            então faz mais sentido organzar todas as questões de campo elétrico enquanto um <i>grupo</i> do que cada uma
+            individualmente.
+
+        </p>
+        <p>Em suma, o problema desses apps é que eles não aplicam os principios da repetição espaçada. A maneira mais
+            eficiente de
+            realizar isso seria agrupar as questões por <i>assuntos</i> (Romantismo, Campo elétrico, Naturalismo, etc.)
+            e depois mostrá-las baseado na dificuldade
+            que o estudante <i>individualmente</i> tem neles.
+        </p>
+    </section>
+    <section class="hidden">
+        <h3>A solução do problema</h3>
+        <p>Nossa proposta de solução é a junção dessas duas propostas, um app/serviço que apresente para você as questões do
+            exame não de maneira aleatória,
+            mas separando-as por conteúdo e dificuldade individual de cada estudante.
+
+            Para isso, vamos utilizar algumas ferramentas já existentes como o FSRS e [insira aqui a tecnologia].
+            Aplicando-as em um app/site.
+        </p>
+        <section class="hidden">
+            <h2>Como o app vai funcionar na prática?</h2>
+            <h3>1. Abertura inicial</h3>
+            <p>Primeiramente, o estudante deverá indicar quanto tempo ele tem diariamente para usar o app. Essa informação
+                será armazenada e será utilizada posteriormente (4).</p>
+            <h3>2. Coleta de informações</h3>
+            <p>Na primeira utilização do app, o estudante deverá responder um simulado com entre 50 e 100 questões, marcando
+                qual foi a dificuldade que ele teve em
+                cada questão (Fácil, Díficil, Chute). O objetivo disso é alimentar o algoritmo com informações que o
+                tornarão
+                capaz de definir a dificuldade que o estudante tem em cada conteúdo.
+            </p>
+            <h3>3. Revisões direcionadas</h3>
+            <p>Após isso, o algoritmo já vai ter entendido com que frequência o estudante deve revisar cada conteúdo para
+                não esquece-lô. Então
+                as questões apresentadas nas próximas revisões vão estar ordenadas com base nisso - conteúdos que o
+                estudante tem mais dificuldade vão aparecer com
+                mais frequência, já conteúdos que o estudante já domina vão aparecer menos. Seguindo aquela lógica de
+                "lembrar a maior quantidade de coisas possível, revisando a menor quantidade de vezes possível."
+            </p>
+            <h3>4. Novos conteúdos</h3>
+            <p>Entre as revisões, o app deverá apresentar questões com novos conteúdos, que o estudante ainda não viu, a
+                frequência e quantidade desses novos assuntos
+                será baseada na quantidade de tempo diário disponível que o estudante informou no passo 1. Isso é
+                importante, já que quanto mais conteúdos novos o estudante vê, maior será o número de revisões a curto
+                prazo, maior o tempo diário gasto a curto prazo.
+            </p>
+            <hr>
+            <p>Repita os passos 3 e 4 até que o estudante tenha (no melhor dos casos) estudado e revisado todos os assuntos
+                da prova, no menor tempo possível.</p>
+        </section>
+        <section class="hidden">
+            <h2>Tecnologias utilizadas</h2>
+            <h3>Free Spaced Repetition Scheduling Algorithm</h3>
+            Esse é o algoritmo de código aberto que realizará o agendamento das questões baseando-se nos nossos critérios
+            desejados.
+            <h3>Microdados do ENEM</h3>
+            Segundo o próprio INEP, os microdados "reúnem um conjunto de informações detalhadas relacionadas às pesquisas,
+            aos exames e avaliações do Instituto.",
+            essas informações serão úteis para a formação do nosso app.
+            <h3>Repositório de Questões (API ENEM)</h3>
+            Felizmente, a comunidade já desenvolveu uma API pública e de
+            código aberto que nos permitirá
+            armazenar e catalogar todas as questões já aplicadas na prova.
+            <a href="https://docs.enem.dev/introduction" class="botao">Ir para a página</a>
+
+        </section>
+        <section class="hidden">
+            <h2>Outras funcionalidades do app/site</h2>
+            A funcionalidade básica do nosso serviço será a realização de questões organizadas pelo algoritmo de repetição
+            espaçada, mas também temos outros objetivos, que incluem possibilitar:
+            <div class="lista"></div>
+            <ul>
+                <li>A realização de questões por área (Ciências da natureza, matemática, etc.);</li>
+                <li>O estudo de questões, por conteúdo, fora da revisão padrão;</li>
+                <li>O acesso de estatísticas sobre as revisões (questões respondidas, porcentagem de acertos, etc.);</li>
+                <li>Se possível, uma aproximação da nota TRI do ENEM;</li>
+                <li>Disponibilização do serviço via web e app.</li>
+            </ul>
+            
+            <h2>Mais informações/referências</h2>
+            <ul>
+                <li><a href="https://ncase.me/remember/pt.html">Como se lembrar de qualquer coisa para (quase) sempre -
+                        nicky case</a></li>
+                <li><a href="https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler">Spaced Repetition
+                        Scheduling Algorithm (Github)</a></li>
+                <li><a href="https://github.com/yunger7/enem-api/tree/main/public">Repositório de questões (Github)</a></li>
+            </ul>
+        </section>
+    </section>
+</body>
+<script src="scripts.js"></script>
+
+</html>
